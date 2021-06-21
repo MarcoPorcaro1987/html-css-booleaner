@@ -21,7 +21,7 @@ h1{
     font-size: 40px;
 }
 
-.colore-testo {
+#testo-grigio {
     color: grey;
 }
 #testo-azzurro {
@@ -44,4 +44,21 @@ h1{
 
 #riga-tabella{
     background-color: #B1E5F2;
+}
+
+.foto-conclusiva1 {
+    background-image: url(../img/monitor.jpg);
+    height: 200px;
+    width: 250px;
+}
+
+#testo-immagini {
+    color: white;
+    font-size: 22px;
+}
+
+.foto-conclusiva2 {
+    background-image: url(../img/graph.jpg);
+    height: 200px;
+    width: 250px;
 }
