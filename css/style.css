@@ -28,11 +28,11 @@ h1{
     color: #4EA0FF;
 }
 
-#testo-piccolo {
+.testo-piccolo {
     font-size: 11px;
 }
 
-#testo-evidenziato-giallo {
+.testo-evidenziato-giallo {
     background-color: yellow;
 }
 
@@ -42,22 +42,22 @@ h1{
     background-color: #20A9E5;
 }
 
-#riga-tabella{
+.riga-tabella{
     background-color: #B1E5F2;
 }
 
-.foto-conclusiva1 {
+#foto-conclusiva1 {
     background-image: url(../img/monitor.jpg);
     height: 200px;
     width: 250px;
 }
 
-#testo-immagini {
+.testo-immagini {
     color: white;
     font-size: 22px;
 }
 
-.foto-conclusiva2 {
+#foto-conclusiva2 {
     background-image: url(../img/graph.jpg);
     height: 200px;
     width: 250px;
