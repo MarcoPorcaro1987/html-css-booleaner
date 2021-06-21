@@ -31,3 +31,7 @@ h1{
 #testo-piccolo {
     font-size: 11px;
 }
+
+#testo-evidenziato-giallo {
+    background-color: yellow;
+}
