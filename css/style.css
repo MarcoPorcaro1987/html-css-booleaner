@@ -35,3 +35,13 @@ h1{
 #testo-evidenziato-giallo {
     background-color: yellow;
 }
+
+
+#intestazione-tabella {
+    color: white;
+    background-color: #20A9E5;
+}
+
+#riga-tabella{
+    background-color: #B1E5F2;
+}
