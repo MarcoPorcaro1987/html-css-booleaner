@@ -1,12 +1,12 @@
 .container {
-    width: 45%;
+    width: 55%;
     margin: auto;
     
 }
 
 #banner {
     background-image: url(../img/pattern.png);
-    height: 140px;
+    height: 100px;
     background-size: 40%;
     background-color:#4EA0FF;
 }
@@ -17,4 +17,17 @@
     margin-left: 1%;
 }
 
+h1{
+    font-size: 40px;
+}
 
+.colore-testo {
+    color: grey;
+}
+#testo-azzurro {
+    color: #4EA0FF;
+}
+
+#testo-piccolo {
+    font-size: 12px;
+}
