@@ -1,0 +1,20 @@
+.container {
+    width: 45%;
+    margin: auto;
+    
+}
+
+#banner {
+    background-image: url(../img/pattern.png);
+    height: 140px;
+    background-size: 40%;
+    background-color:#4EA0FF;
+}
+
+#logo {
+    width: 20%;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+
