@@ -13,7 +13,7 @@
         <div class="container">
             <!-- Banner e logo -->
             <header>
-                <div id="banner">
+                <div class="banner">
                     <img id=logo src="img/logo.svg" alt="logo The Booleaner">
                 </div>
             </header>
@@ -23,8 +23,8 @@
             <main> 
                 <!-- titolo di apertura  -->
                 <section>
-                    <h1><strong>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</strong></h1>
-                    <p class=testo-grigio>Scritto da <span id=testo-azzurro>The Booleaner</span><br> <span class="testo-piccolo">il 10/10/2020</span></p>
+                    <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+                    <p class=testo-grigio>Scritto da <span class=testo-azzurro>The Booleaner</span><br> <span class="testo-piccolo">il 10/10/2020</span></p>
                 </section>
                 <!-- /titolo di apertura  -->
                 <!-- foto e didascalie -->
@@ -47,26 +47,30 @@
                 <!-- Tabella Lorem ipsum -->
                 <section>
                     <table>
-                        <tr id=intestazione-tabella>
+                        <thead>
+                            <tr id=intestazione-tabella>
                             <th>Lorem ipsum dolor</th>
                             <th>Lorem ipsum dolor</th>
-                            <th>Lorem ipsum dolor</th>
-                        </tr>
-                        <tr class=riga-tabella>
-                            <td>Lorem ipsum dolor</td>
-                            <td>Lorem ipsum dolor</td>
-                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatem quod laudantium dolorem nisi quas sequi. Consequatur ab reprehenderit dicta odit vel, voluptatem molestias porro nam aperiam suscipit saepe amet?</td>
-                        </tr>
-                        <tr>
-                            <td>Lorem ipsum dolor</td>
-                            <td>Lorem ipsum dolor</td>
-                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatem quod laudantium dolorem nisi quas sequi. Consequatur ab reprehenderit dicta odit vel, voluptatem molestias porro nam aperiam suscipit saepe amet?</td>
-                        </tr>
-                        <tr class=riga-tabella>
-                            <td>Lorem ipsum dolor</td>
-                            <td>Lorem ipsum dolor</td>
-                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatem quod laudantium dolorem nisi quas sequi. Consequatur ab reprehenderit dicta odit vel, voluptatem molestias porro nam aperiam suscipit saepe amet?</td>
-                        </tr>
+                            <th class="larghezza-colonna">Lorem ipsum dolor</th>
+                            </tr>
+                        </thead>
+                        <tbody>   
+                            <tr class=riga-tabella>
+                                <td>Lorem ipsum dolor</td>
+                                <td>Lorem ipsum dolor</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatem quod laudantium dolorem nisi quas sequi. Consequatur ab reprehenderit dicta odit vel, voluptatem molestias porro nam aperiam suscipit saepe amet?</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem ipsum dolor</td>
+                                <td>Lorem ipsum dolor</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatem quod laudantium dolorem nisi quas sequi. Consequatur ab reprehenderit dicta odit vel, voluptatem molestias porro nam aperiam suscipit saepe amet?</td>
+                            </tr>
+                            <tr class=riga-tabella>
+                                <td>Lorem ipsum dolor</td>
+                                <td>Lorem ipsum dolor</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique voluptatem quod laudantium dolorem nisi quas sequi. Consequatur ab reprehenderit dicta odit vel, voluptatem molestias porro nam aperiam suscipit saepe amet?</td>
+                            </tr>
+                        </tbody> 
                     </table>
                 </section>
                 <!-- /Tabella Lorem ipsum -->
@@ -77,16 +81,14 @@
             <!-- /Contenuti principali -->
 
             <!-- Sezione conlusiva -->
-            <footer id=format-footer>
-                <section>
-                    <p class="testo-grigio"> Potrebbero interessarti</p>
-                    <div id="foto-conclusiva1">
-                        <p class="testo-immagini"> Lorem ipsum dolor</p>
+            <footer>
+                    <h3 class="testo-grigio"> Potrebbero interessarti</h3>
+                    <div class="format-img" id="foto-conclusiva1" >
+                        <p> Lorem ipsum dolor</p>
                     </div>
-                    <div id="foto-conclusiva2">
-                        <p class="testo-immagini">Lorem ipsum dolor</p>
+                    <div class="format-img" id="foto-conclusiva2">
+                        <p>Lorem ipsum dolor</p>
                     </div>
-                </section>    
             </footer>
             <!-- /Sezione conlusiva -->
         </div>
